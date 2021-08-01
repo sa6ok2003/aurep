@@ -20,7 +20,7 @@ def get_sms(client,message):
             app.send_message(chat_id=id_telemetr,text= '@FactorRoom')
             time.sleep(20)
             app.send_message(chat_id=id_telemetr, text='@RoomFakts')
-            time.sleep(86400)
+            time.sleep(86381)
 
 
 app.run()
